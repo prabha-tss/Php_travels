@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="phptravelsTNG.login">
+        <methods>
+          <include name="loginvalidation"/>
+          <include name="hoteldes"/>
+          <include name="chkinout"/>
+        </methods>
+      </class> <!-- phptravelsTNG.login -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
