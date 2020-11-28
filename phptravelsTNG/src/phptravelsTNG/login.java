@@ -144,7 +144,7 @@ void homechk() {
 */
 @AfterSuite
 public void winclose(){
-	//driver.close();
+driver.close();
 	
 }
 	
